@@ -1,0 +1,110 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #e6e6e6;
+	font-family: sans-serif;
+}
+
+#wrapper {
+	width: 780px;
+	height: auto;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+header {
+	width: auto;
+	height: 100px;
+	background-image: url("header.png");
+}
+
+nav {
+	width: auto;
+	height: 35px;
+	background-color: #555;
+	margin: auto;
+}
+
+#content {
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+footer {
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #555;
+	height: 20px;
+	color: #fff;
+	width: 100%;
+}
+
+.shadow {
+	-moz-box-shadow: 5px 5px 100px 5px #aaa;
+	-webkit-box-shadow: 5px 5px 100px 5px #aaa;
+	box-shadow: 5px 5px 100px 5px #aaa;
+}
+
+.mail {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+#vorstand {
+	
+}
+
+#vorstand .single {
+	margin-top: 20px;
+}
+
+#vorstand .double {
+	
+}
+
+#vorstand .double .left {
+	margin-top: 20px;
+	float: left;
+	margin-left: 160px;
+}
+
+#vorstand .double .right {
+	margin-top: 20px;
+	float: left;
+	margin-left: 160px;
+}
+
+#vorstand .tripel {
+	padding-top: 220px;
+}
+
+#vorstand .tripel .left {
+	margin-top: 20px;
+	float: left;
+	margin-left: 82.5px;
+}
+
+#vorstand .tripel .center {
+	margin-top: 20px;
+	float: left;
+	margin-left: 82.5px;
+}
+
+#vorstand .tripel .right {
+	margin-top: 20px;
+	float: left;
+	margin-left: 82.5px;
+}
+
+#clear {
+	clear: both;
+}
+
+#kontakt{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
